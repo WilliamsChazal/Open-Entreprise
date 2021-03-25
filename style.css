@@ -1,3 +1,7 @@
+*{
+    background-color:#F3F0EA ;
+}
+
 #logo{
     width: 240px;
 }
@@ -8,13 +12,62 @@
 
 
 #image1{
-    width: 720px;
-    height: 900px;
+    width: 100%;
 }
 
 
-#marge-row{
-    margin-top: 246px;
-    margin-left: 35px;
-    margin-right: 15px;
+
+
+*{
+    border-style: dotted;
+    border-color: crimson;
+    border-width: 1px;
+}
+
+.p1{
+    padding-top:100px;
+}
+
+.bouton{
+    width: 219px;
+    height: 64px;
+}
+
+.h2{
+    text-align: center;
+}
+
+
+.p2{
+    padding:20px;
+    text-align: center;
+}
+
+.Cards{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cards-size{
+    width: 427px;
+    height: 340px;
+}
+
+.icons{
+    width: 104px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-card-title-text{
+    text-align: center;
+}
+
+#members-widget-size{
+    width: 470px;
+}
+
+.padding-left{
+    padding-left: 50px;
 }
