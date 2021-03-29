@@ -1,5 +1,5 @@
 *{
-    background-color:#F3F0EA ;
+    background-color:#ffffff ;
 }
 
 #logo{
@@ -15,8 +15,17 @@
     width: 100%;
 }
 
+#card-member-size{
+    width: 484px;
+}
 
+.member-size{
+    width: 72px;
+}
 
+.text-member{
+    text-align: right;
+}
 
 *{
     border-style: dotted;
@@ -60,14 +69,18 @@
     margin-right: auto;
 }
 
-.center-card-title-text{
-    text-align: center;
-}
-
-#members-widget-size{
-    width: 470px;
-}
 
 .padding-left{
     padding-left: 50px;
 }
+
+.padding-left-2{
+    padding-left: 70px;
+}
+
+.box-shadow
+{
+box-shadow:10px 10px 0px #71A894;
+border-radius: 10px / 10px;
+}
+
