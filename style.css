@@ -66,8 +66,7 @@ body{
 }
 
 .cards-size{
-    width: 427px;
-    height: 340px;
+   width: 100%;
 }
 
 .icons{
@@ -95,4 +94,9 @@ border-radius: 10px / 10px;
 .box-shadow-bottom{
     box-shadow:0px 10px 0px #71A894;
     border-radius: 10px / 10px;
+}
+
+.border-card-green{
+    border: 2px solid #71A894;
+    
 }

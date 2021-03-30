@@ -178,7 +178,8 @@
       
   <!-- début § Onboard users -->
 </div>
-  <div class="col-sm-12 col-md-6 padding-left">
+<div class="col-1"></div>
+  <div class="col-sm-12 col-md-6 margin-left padding-left">
     <div class="row mt-4">
     <div class="row mt-5"></div>
       <div class="col-3">
@@ -192,10 +193,10 @@
       </div>
 </div>
 
- <!-- fin § Onboard users -->
+  <!-- fin § Onboard users -->
 
 
-<!-- début § Onboard engage -->
+  <!-- début § Onboard engage -->
 
  <div class="row mt-5">
       <div class="col-sm-12 col-md-6 mt-3">
@@ -209,8 +210,11 @@
               <div class="col-12"><p>You need talented people on-demand across various tasks that your full-time workforce can’t prioritize at the moment. As an Open Enterprise, you can easily fund tasks and have people apply to work on them in return for funds or shares.</p></div>
            </div>
       </div>
-  <!-- ENcardé Write -->
-      <div class="col-sm-12 col-md-6 mt-3 padding-left margin-right">
+
+  <!-- ENcardé  -->
+
+      <!-- ENcardé Write -->
+        <div class="col-sm-12 col-md-6 mt-3 padding-left margin-right">
             <div class="row border-dark border rounded box-shadow-bottom">
               <div class="col-2"></div>
                   <div class="col-8">
@@ -220,7 +224,7 @@
                         </div>
                     <!-- Bouton 1 share -->
                     <div class="col-2">
-                      <div class="row"><button type="button" class="btn btn-success">1 share</button></div>
+                      <div class="row"><button type="button" class="btn btn-success rounded-pill">1 share</button></div>
                       </div>
                 </div>
                 
@@ -249,20 +253,42 @@
 
                         </div>
                     <div class="col-1"></div>
-
-                    <div class="col-4 row border-dark border rounded">
-                            <div class="row mt-1">
+            <!-- Card Alex Rose -->
+                    <div class="col-4 sm-12 md-6 row border-card-green rounded">
+                            <div class="row mt-2">
                                     <div class="col-4"></div>
                                     <div class="col-4"><img src="alex.png"></div>
                                     <div class="col-4"></div>
                             </div>
-                          <div class="row"><p class="text-center">Alex Rose <br> UX Writer</p></div>
-   
+                        
+                        <div class="col-12 ">
+                             <div class="row"><p class="text-center">Alex Rose <br> UX Writer</p></div>
+                                <div class="row mt-3">
+                                    <div class="col-1 ml-1">4</div>
+                                    <div class="col-6"><p class="text-left">COMMITS</p></div>
+                                    <div class="col-2"><p>4.5</p></div>
+                                    <div class="col-2"><img src="star.png"></div>
+                                </div>
+                        </div> 
+                        <div class="col-12 align-content-center">
+                          <div class="row"><button type="button" class="btn btn-dark rounded-pill">View Profil</button></div> 
+                        </div> 
                     </div>
+           </div>
+        <!-- ENcardé  -->
+ </div>               
 
+      <!-- Dernier § -->
 
-                  </div>
-                
+      <div class="col-12 md-12 sm-6 mt-5">
+            <div class="row text-center"><h4>Help us improve Open Entreprise</div>
+                <div class="row text-center">As an Open Enterprise ourselves, we are actively looking for new talent to join our mission of improving and delivering the Open Enterprise model to the world. Apply for open tasks and earn a stake in our success. </div>
+      </div>
+    <!-- fin Dernier § -->
+
+<!-- Card bas de page -->
+    <div class="col-12 md-12 sm-6 mt-5"></div>
+    
 
            
             
@@ -274,7 +300,7 @@
 
 
 
-    </div>
+    
 
        
 
