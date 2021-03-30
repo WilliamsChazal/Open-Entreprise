@@ -6,6 +6,9 @@ body{
     background-color:#FFFFFF ; 
 }
 
+.background-color{
+    background-color:#F3F0EA;
+}
 
 #logo{
     width: 240px;
@@ -89,3 +92,7 @@ box-shadow:10px 10px 0px #71A894;
 border-radius: 10px / 10px;
 }
 
+.box-shadow-bottom{
+    box-shadow:0px 10px 0px #71A894;
+    border-radius: 10px / 10px;
+}

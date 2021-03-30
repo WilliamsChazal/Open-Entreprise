@@ -144,7 +144,7 @@
 <!-- Jassir -->
 
 <div class="row mt-5 padding-left">
-      <div class="col-sm-12 col-md-6 mt-3">
+      <div class="col-sm-12 col-md-4 mt-3">
            <div class="card border-dark border rounded">
             <div class="row"> 
                 <div class="col-3 padding-left">
@@ -175,7 +175,7 @@
 
   </div>  
   <!-- fin jassir -->
-
+      
   <!-- début § Onboard users -->
 </div>
   <div class="col-sm-12 col-md-6 padding-left">
@@ -209,18 +209,74 @@
               <div class="col-12"><p>You need talented people on-demand across various tasks that your full-time workforce can’t prioritize at the moment. As an Open Enterprise, you can easily fund tasks and have people apply to work on them in return for funds or shares.</p></div>
            </div>
       </div>
-      <div class="col-sm-12 col-md-6 mt-3">
-        <div class="row">
-          <div class="col-2"></div>
-              <div class="col-8">
-                  <div class="row"><p>Write a how-to on Open Enterprise</p></div>
+  <!-- ENcardé Write -->
+      <div class="col-sm-12 col-md-6 mt-3 padding-left margin-right">
+            <div class="row border-dark border rounded box-shadow-bottom">
+              <div class="col-2"></div>
+                  <div class="col-8">
+                      <div class="row"><p>Write a how-to on Open Enterprise</p>
+                      <div class="col">Looking for an amazing copywriter using Open Entreprise to help us write an article on how to get started</div>
+                      </div>
+                        </div>
+                    <!-- Bouton 1 share -->
+                    <div class="col-2">
+                      <div class="row"><button type="button" class="btn btn-success">1 share</button></div>
+                      </div>
+                </div>
+                
+                <div class="col-sm-6 col-md-12 mt-3"></div>
+                  <div class="row ">
+                        <div class="col-7 border-dark border rounded background-color">
+                      <div class="row">
+                          <div class="col-3"></div>
+                          <div class="col-9">3 applicants</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-3"><img src="jason.png"></div>
+                        <div class="col-6"><p>Jason Kwon</p></div>
+                        <div class="col-3"><img src="star.png"><p>4.8</p></div>
                     </div>
-                <!-- Bouton 1 share -->
-                <div class="col-2"><button type="button" class="btn btn-success btn-radius">1 share</button></div>
+                    <div class="row">
+                        <div class="col-3"><img src="alex.png"></div>
+                        <div class="col-6"><p>Alex Rose</p></div>
+                        <div class="col-3"><img src="star.png"><p>4.5</p></div>
+                    </div>
+                    <div class="row">
+                          <div class="col-3"><img src="lizzie.png"></div>
+                          <div class="col-6"><p>Lizzie Ulrich</p></div>
+                          <div class="col-3"><img src="star.png"><p>4.2</p></div>
+                      </div> 
 
-            </div>
-      </div>
- </div>
+                        </div>
+                    <div class="col-1"></div>
+
+                    <div class="col-4 row border-dark border rounded">
+                            <div class="row mt-1">
+                                    <div class="col-4"></div>
+                                    <div class="col-4"><img src="alex.png"></div>
+                                    <div class="col-4"></div>
+                            </div>
+                          <div class="row"><p class="text-center">Alex Rose <br> UX Writer</p></div>
+   
+                    </div>
+
+
+                  </div>
+                
+
+           
+            
+           
+
+           
+    
+           
+
+
+
+    </div>
+
+       
 
 
 
