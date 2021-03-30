@@ -59,7 +59,7 @@
 
 <!-- début des cards -->
 
-<div class="card-group">
+<div class="card-group color-background-cards">
   <div class="card p-2">
     <img src="images-cards/Icon.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text">
@@ -142,58 +142,122 @@
 </div>
 
 <!-- Jassir -->
-<div class="row">
-  <div class="col-md-4">
-  <div class="card p-3 border-dark">
-  <div class="card-body">
-    <div class="row">
-      <div class="col-6">
-         <img src=jassir.png style="width 72px">
-    </div>
-      <div class="col-6">
-        <div class="row">
-         <div><h5 class="card-title col-12 ml-5">Card title</h5></div>
-         <div><h6 class="card-subtitle mb-2 text-muted col-12">Card subtitle</h6></div>
-      
-         
-         </div>
-       </div>
-    </div>
-    <div class="row">
-         <div><p class="card-text col-12">Some quick example text to build on the card title and make up the bulk of the card's content.</p></div>
-  <div class="row">
-  <div class="col-6"> COMMIT </div>
-  <div class="col-6"> SHARES </div>
-  </div>
 
-  <div class="row">
-  <div class="col-6"> 10,000 DAI </div>
-  <div class="col-6"> 20  </div>
-  </div>
+<div class="row mt-5 padding-left">
+      <div class="col-sm-12 col-md-6 mt-3">
+           <div class="card border-dark border rounded">
+            <div class="row"> 
+                <div class="col-3 padding-left">
+                      <img src="jassir.png">  
+              </div>
+                <div class="col-9">
+                  <div class="row">
+                      <div class="col-12"><h5 class="card-title">Jassir Jonis</h5></div>
+                      <div class="col-12"><h6 class="card-subtitle mb-2 text-muted">Pre-seed angel investor</h6></div>
+                  </div>
+                </div>     
+              <div class="row mt-2">
+                <div class="col-12"> <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></div>
+              </div> 
+                <div class="row mt-2">
+                  <div class="col-6"><p>COMMIT</p></div>
+                  <div class="col-6"><p>SHARES</p></div>
+                 </div>
+                    <div class="row">
+                      <div class="col-6"><p>10,000 DAI</p></div>
+                      <div class="col-6"><p>20</p></div>
+                    </div>
+                 <div class="row mt-4 mb-3">
+                 <div class="d-grid gap-2">
+                     <button class="btn btn-dark" type="button">Go to vote</button></div>
+                 </div>
+        </div>
 
-  <div class="row">
-  <div class="d-grid gap-2"> <button type="button" class="btn btn-dark">Go to vote</button> </div>
+  </div>  
+  <!-- fin jassir -->
 
-  </div>
-
-  </div>
-  </div>
-  </div>
-  <div class="col-md-2"></div>
-  <!-- Attention: doit rester vide ! -->
-  
-  
-  <!-- mon html ici -->
-  <div class="col-md-10">
-      <div class="row">
-        <div class="col-3"><img src=images-cards/icon.png></div>
-        <div class="row"><h3>Onboard users, investors and advisors as you grow</h3></div>
-      </div>
-  </div>
-
-  </div>
-  
+  <!-- début § Onboard users -->
 </div>
+  <div class="col-sm-12 col-md-6 padding-left">
+    <div class="row mt-4">
+    <div class="row mt-5"></div>
+      <div class="col-3">
+          <img src="icon4.png">
+         </div>
+        <div class="col-12">
+          <h4> Onboard users, investors and advisors as you grown</h4>
+          </div>
+            <div class="col-12"><p>You’ve bootstrapped and delivered an MVP, and some investors and advisors are interested in having a chat with you. As an Open Enterprise, you can onboard them seamlessly into your digital organization and align them with your success.</p> </div>
+            
+      </div>
+</div>
+
+ <!-- fin § Onboard users -->
+
+
+<!-- début § Onboard engage -->
+
+ <div class="row mt-5">
+      <div class="col-sm-12 col-md-6 mt-3">
+          <div class="row">
+              <div class="col-3">
+                <img src="icon5.png">
+                  </div>
+           </div>
+        <div class="row">
+              <div class="col-12"> <h4>Engage higly committed contributors</h3></div>
+              <div class="col-12"><p>You need talented people on-demand across various tasks that your full-time workforce can’t prioritize at the moment. As an Open Enterprise, you can easily fund tasks and have people apply to work on them in return for funds or shares.</p></div>
+           </div>
+      </div>
+      <div class="col-sm-12 col-md-6 mt-3">
+        <div class="row">
+          <div class="col-2"></div>
+              <div class="col-8">
+                  <div class="row"><p>Write a how-to on Open Enterprise</p></div>
+                    </div>
+                <!-- Bouton 1 share -->
+                <div class="col-2"><button type="button" class="btn btn-success btn-radius">1 share</button></div>
+
+            </div>
+      </div>
+ </div>
+
+
+
+                 
+               
+               
+                 
+                    
+                         
+
+
+   
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

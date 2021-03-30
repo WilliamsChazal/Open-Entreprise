@@ -1,6 +1,11 @@
-*{
-    background-color:#ffffff ;
+body{
+    background-color:#F9F9F9 ;
 }
+
+.color-background-cards{
+    background-color:#FFFFFF ; 
+}
+
 
 #logo{
     width: 240px;
