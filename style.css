@@ -1,3 +1,65 @@
+@font-face {
+    font-family: 'Mermaid';
+    src: url('Mermaid.ttf');
+}
+
+
+@font-face {
+    font-family: 'Overpass-Regular';
+    src: url('Overpass-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Espacio Novo Medium';
+    src: url('Espacio Novo Medium.ttf');
+}
+
+@font-face {
+    font-family: 'atwriter';
+    src: url('atwriter.ttf');
+}
+
+
+
+h1
+{
+color:black !important;
+font-family: 'Mermaid';
+font-size: 64px;
+}
+
+
+h2
+{
+color:black !important;
+font-family: 'Mermaid';
+font-size: 48px;
+}
+
+
+h5{
+ color:black !important;
+font-family: 'Espacio Novo Medium';
+font-size: 24px;  
+}
+
+.card1{
+    color:black !important;
+    font-family: 'atwriter';
+    font-size: 18px;
+}
+
+.margin{
+    margin-left: 10px;
+}
+
+
+p{
+    color:black !important;
+font-family: 'Overpass-Regular';
+font-size:24px; ;
+}
+
 body{
     background-color:#F9F9F9 ;
 }
@@ -9,6 +71,8 @@ body{
 .background-color{
     background-color:#F3F0EA;
 }
+
+
 
 #logo{
     width: 240px;
@@ -22,8 +86,12 @@ body{
     width: 100%;
 }
 
+#image2{
+    width: 100%;
+}
+
 #card-member-size{
-    width: 484px;
+    width: 100%;
 }
 
 .member-size{
