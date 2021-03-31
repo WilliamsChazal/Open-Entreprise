@@ -18,7 +18,6 @@ body{
     color: #71A894;
 }
 
-
 #image1{
     width: 100%;
 }
@@ -31,43 +30,6 @@ body{
     width: 72px;
 }
 
-.text-member{
-    text-align: right;
-}
-
-*{
-    border-style: dotted;
-    border-color: crimson;
-    border-width: 1px;
-}
-
-.p1{
-    padding-top:100px;
-}
-
-.bouton{
-    width: 219px;
-    height: 64px;
-}
-
-.h2{
-    text-align: center;
-}
-
-
-.p2{
-    padding:20px;
-    text-align: center;
-}
-
-.Cards{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.cards-size{
-   width: 100%;
-}
 
 .icons{
     width: 104px;
@@ -76,14 +38,6 @@ body{
     margin-right: auto;
 }
 
-
-.padding-left{
-    padding-left: 50px;
-}
-
-.padding-left-2{
-    padding-left: 70px;
-}
 
 .box-shadow
 {
@@ -99,4 +53,9 @@ border-radius: 10px / 10px;
 .border-card-green{
     border: 2px solid #71A894;
     
+}
+
+.card-bottom-shadow{
+    box-shadow: 10px 10px 10px #F3F0EA;
+    background-color: #FFFFFF;
 }

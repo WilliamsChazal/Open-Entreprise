@@ -54,14 +54,14 @@
 
 <div class="row">
 
-<h2 class="h2 mt-5"> Reimaging what it means to work </h2>
+<h2 class="mt-5"> <h2>Reimaging what it means to work </h2>
 <p class="p2"> Teams and communities using Open Entreprise fundamentally unlock a reality of work that reimagines how people <br> engage in economic opportuinity, meeting the demands and expectations of a modern organization </p>
 
 <!-- début des cards -->
 
 <div class="card-group color-background-cards">
   <div class="card p-2">
-    <img src="images-cards/Icon.png" class="card-img-top icons" alt="...">
+    <img src="images-cards/icon.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text">
     <h5 class="card-title">Modern Workforce</h5>
       <p class="card-text">Multistakeholder governance aligns employees with the organization’s wider community.</p>
@@ -69,7 +69,7 @@
     </div>
   </div>
   <div class="card p-2">
-    <img src="..." class="card-img-top icons" alt="...">
+    <img src="images-cards/imagecards2.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text">
     <h5 class="card-title">Modern Workforce</h5>
       <p class="card-text">Multistakeholder governance aligns employees with the organization’s wider community.</p>
@@ -77,7 +77,7 @@
     </div>
   </div>
   <div class="card p-2">
-    <img src="..." class="card-img-top icons" alt="...">
+    <img src="images-cards/imagecards3.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -186,7 +186,7 @@
           <img src="icon4.png">
          </div>
         <div class="col-12">
-          <h4> Onboard users, investors and advisors as you grown</h4>
+          <h2> Onboard users, investors and advisors as you grown</h2>
           </div>
             <div class="col-12"><p>You’ve bootstrapped and delivered an MVP, and some investors and advisors are interested in having a chat with you. As an Open Enterprise, you can onboard them seamlessly into your digital organization and align them with your success.</p> </div>
             
@@ -206,7 +206,7 @@
                   </div>
            </div>
         <div class="row">
-              <div class="col-12"> <h4>Engage higly committed contributors</h3></div>
+              <div class="col-12"> <h2>Engage higly committed contributors</h2></div>
               <div class="col-12"><p>You need talented people on-demand across various tasks that your full-time workforce can’t prioritize at the moment. As an Open Enterprise, you can easily fund tasks and have people apply to work on them in return for funds or shares.</p></div>
            </div>
       </div>
@@ -218,7 +218,7 @@
             <div class="row border-dark border rounded box-shadow-bottom">
               <div class="col-2"></div>
                   <div class="col-8">
-                      <div class="row"><p>Write a how-to on Open Enterprise</p>
+                      <div class="row"><h5>Write a how-to on Open Enterprise</h5>
                       <div class="col">Looking for an amazing copywriter using Open Entreprise to help us write an article on how to get started</div>
                       </div>
                         </div>
@@ -279,15 +279,85 @@
  </div>               
 
       <!-- Dernier § -->
+      <div class="row mt-5"><img src="divider.png"></div>
 
       <div class="col-12 md-12 sm-6 mt-5">
-            <div class="row text-center"><h4>Help us improve Open Entreprise</div>
+            <div class="row text-center"><h2>Help us improve Open Entreprise</h2></div>
                 <div class="row text-center">As an Open Enterprise ourselves, we are actively looking for new talent to join our mission of improving and delivering the Open Enterprise model to the world. Apply for open tasks and earn a stake in our success. </div>
       </div>
     <!-- fin Dernier § -->
+    
+    
 
 <!-- Card bas de page -->
-    <div class="col-12 md-12 sm-6 mt-5"></div>
+    <div class="col-12 md-12 sm-6 mt-5">
+              <div class="row">
+                  <div class="col-3  md-12 sm-6  card-bottom-shadow offset-1 border rounded">
+                      <div class="row padding-left">Ideate a liste of features based on the Sociocracy model</div>
+                      <div class="row padding-left pt-2">We're looking for someone interested in buisness theroy and research that'll help us bridge the gap between our s...</div>
+                      <div class="row">
+                            <div class="col-6 pt-2 justify-content-left"><button type="button" class="btn btn-success rounded-pill">5 AUT</button></div>
+                            <div class="col-6 justify-content-right pt-3">Apply by may 15</div>
+                      </div>
+                  </div>
+
+                <div class="col-3  md-12 sm-6  offset-1 card-bottom-shadow  border rounded">
+                      <div class="row pt-2">
+                          <div class="row padding-left">Update documentation with FAQs</div>
+                          <div class="row padding-left pt-2">Review our communtiy chat for the most frequently asked questions and document answers four our product docs.</div>
+                            <div class="row">
+                              <div class="col-6 pt-3"> <button type="button" class="btn btn-success rounded-pill">10 AUT</button></div>
+                              <div class="col-6 justify-content-right pt-3">Apply by May 18</div>
+                            </div>
+                        </div>
+                </div>
+
+                  <div class="col-3   md-12 sm-6 card-bottom-shadow offset-1 border rounded">
+                        <div class="row padding-left"> Tutorial video series</div>
+                        <div class="row  padding-left pt-2">Create a series of video tutorial that cover everything from start to finish using Open Entreprise</div>
+                      <div class="row">
+                          <div class="col-6 pt-3"><button type="button" class="btn btn-success rounded-pill">40 AUT</button></div>
+                          <div class="col-6 justify-content-right pt-3"> Apply by May 20</div>
+                      </div>         
+               </div>
+            <!-- Fin cards bottom -->
+    <div class="row mt-5">
+      <div class="col-4"></div>
+      <div class="col-4 d-flex justify-content-center"><button class="btn btn-dark" type="button">Go to vote</button></div>
+      <div class="col-4"></div>
+    </div>
+
+    <div class="row mt-3"><img src="divider.png"></div>
+
+
+    <!-- § et image bottom -->
+
+        <div class="row  md-12 sm-6 ">
+            <div class="col-6  md-12 sm-6 ">
+              <div class="row pt-3"><h2>Start an Open Entreprise</h2></div>
+              <div class="row pt-3"><p>If you can’t wait to run a new or existing organization on Open Enterprise and are willing to explore and navigate the beta, we’d love to get you started.</p></div>
+              <div class="row"> <button type="button" class="btn btn-success bouton">Request early access</button></div>
+            </div>
+            <div class="col-6 col-sm-12 col-md-6 "><img src="pablo.png" id="image1"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6 ">
+          <p>Open Entreprise</p></div> 
+          <div class="col-sm-12 col-md-6 "><p class="text-end"> Documentation Github Twitter <p class="font-color">Contact us</p></div>
+        </div>
+                    
+
+                    
+
+                          
+                  
+              
+    
+
+
+
+    </div>
     
 
            
