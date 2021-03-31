@@ -270,13 +270,13 @@
                         
                         <div class="col-md-12 col-sm-12 ">
                              <div class="row"><p class="text-center">Alex Rose <br> UX Writer</p></div>
-                                <div class="row mt-3">
-                                    <div class="col-1 ml-1">4</div>
-                                    <div class="col-6 pe-5"><p>COMMITS</p></div>
-                                    <div class="col-2 ps-1"><p>4.5</p></div>
-                                    <div class="col-2"><img src="star.png"></div>
+                                  <div class="mt-3 d-flex justify-content-between">
+                                      <span id="alexrose-commits">4 COMMITS</span>
+                                      <span>4.5 <i class="bi bi-star-fill"></i></span>
+                                      
+                                  </div>
                                 </div>
-                        </div> 
+
                         <div class="col-12 align-content-center">
                           <div class="row"><button type="button" class="btn btn-dark rounded-pill">View Profil</button></div> 
                         </div> 
@@ -352,9 +352,14 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-12 col-md-6 ">
-          <p>Open Entreprise</p></div> 
-          <div class="col-sm-12 col-md-6 "><div><p class="text-right"> Documentation Github Twitter</div><p id="font-color">Contact us</p></div>
+          <div class="d-flex justify-content-between p-5">
+            <h4>Open Entreprise</h4>
+            <div>            
+              <span class="me-5">Documentation</span> <span class="me-5">github</span> <span class="me-5">Twitter</span>
+              <span id="font-color">Contact Us</span>
+            </div>
+
+          </div>
         </div>
                     
 
