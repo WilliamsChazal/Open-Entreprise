@@ -54,7 +54,7 @@
 
 <div class="row">
 
-<div class="row mt-3"><img src="divider.png"></div>
+<div class="row mt-3"><img src="images/divider.png"></div>
 
 <h2 class="mt-5"> <h2>Reimaging what it means to work </h2>
 <p class="p2"> Teams and communities using Open Entreprise fundamentally unlock a reality of work that reimagines how people <br> engage in economic opportuinity, meeting the demands and expectations of a modern organization </p>
@@ -288,7 +288,7 @@
  
 
       <!-- Dernier § -->
-      <div class="row mt-5"><img src="divider.png"></div>
+      <div class="row mt-5"><img src="images/divider.png"></div>
 
       <div class="col-12 md-12 sm-6 mt-5">
             <div class="row text-center"><h2>Help us improve Open Entreprise</h2></div>
@@ -337,7 +337,7 @@
       <div class="col-4"></div>
     </div>
 
-    <div class="row mt-3"><img src="divider.png"></div>
+    <div class="row mt-3"><img src="images/divider.png"></div>
 
 
     <!-- § et image bottom -->
