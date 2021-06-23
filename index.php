@@ -1,4 +1,8 @@
-<?php include "include/header.php";?>
+<?php  
+include "include/header.php";
+
+?>
+
 
 
 <div class="container">
@@ -9,7 +13,7 @@
 <!-- début Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light pb-5">
   <div class="container">
-        <img src="images/logo.png" id="logo" alt="Le Logo">
+  <?= get_custom_logo($blog_id)?> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,7 +50,7 @@
       </div>
       
       
-        <div class="col-sm-12 col-md-6"><img src="images/illustration/image1.png" id="image1" alt=""></div>
+        <div class="col-sm-12 col-md-6"><img src="<?php echo get_template_directory_uri(); ?>/images/illustration/image1.png" id="image1" alt=""></div>
 
     </div>
 
@@ -54,7 +58,7 @@
 
 <div class="row">
 
-<div class="row mt-3"><img src="images/divider.png"></div>
+<div class="row mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
 <h2 class="mt-5"> <h2>Reimaging what it means to work </h2>
 <p class="p2"> Teams and communities using Open Entreprise fundamentally unlock a reality of work that reimagines how people <br> engage in economic opportuinity, meeting the demands and expectations of a modern organization </p>
@@ -63,7 +67,7 @@
 
 <div class="card-group">
   <div class="card p-2 m-2">
-    <img src="images/cards-icons/card-icon-1.png" class="card-img-top icons" alt="...">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/cards-icons/card-icon-1.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text  color-background-cards">
     <h4 class="card-title">Modern Workforce</h4>
       <p class="card-text">Multistakeholder governance aligns employees with the organization’s wider community.</p>
@@ -71,7 +75,7 @@
     </div>
   </div>
   <div class="card p-2 m-2">
-    <img src="images/cards-icons/card-icon-2.png" class="card-img-top icons" alt="...">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/cards-icons/card-icon-2.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text  color-background-cards">
     <h4 class="card-title">Meritocratic by design</h4>
       <p class="card-text">Tokenized ownership aligns deeply committed individuals with the organization’s success.</p>
@@ -79,7 +83,7 @@
     </div>
   </div>
   <div class="card p-2 m-2">
-    <img src="images/cards-icons/card-icon-3.png" class="card-img-top icons" alt="...">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/cards-icons/card-icon-3.png" class="card-img-top icons" alt="...">
     <div class="card-body center-card-title-text  color-background-cards">
       <h4 class="card-title">Engineered for resilience</h4>
       <p class="card-text">Open Enterprise supports best practices in sociocratic management.
@@ -90,12 +94,12 @@
 
 <!-- Fin des Cards -->
 
-<div class="row mt-3"><img src="images/divider.png"></div>
+<div class="row mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
 <div class="row mt-5">
 
  <div class="col-sm-12 col-md-6 mt-5 padding-left">
-   <img src="images/icon-main-page/icon-1.png"> <h2> Kickstart an organization <br> with your co-founders </h2> 
+   <img src="<?php echo get_template_directory_uri(); ?>/images/icon-main-page/icon-1.png"> <h2> Kickstart an organization <br> with your co-founders </h2> 
    <p>It’s the early days, you just had a long conversation with two friends about a meaningful <br>
     challenge that you’re all passionate about and have a potential solution for. You’re ready to embark the startup journey.</p>
   </div>
@@ -106,7 +110,7 @@
         <div class="row">
           <div class="col-12"><h5>Members</h5></div>
           <div class="col-3">
-            <img src= images/portraits/dillon.png>
+            <img src= "<?php echo get_template_directory_uri(); ?>/images/portraits/dillon.png">
           </div>
           <div class="col-9">
             <div class="row">
@@ -117,7 +121,7 @@
         </div>
         <div class="row">
           <div class="col-3">
-            <img src= images/portraits/anna.png>
+            <img src= "<?php echo get_template_directory_uri(); ?>/images/portraits/anna.png">
           </div>
           <div class="col-9">
             <div class="row">
@@ -129,7 +133,7 @@
   <!-- Ligne kas -->
         <div class="row">
           <div class="col-3">
-            <img src=images/portraits/kas.png>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/portraits/kas.png">
           </div>
           <div class="col-9">
             <div class="row">
@@ -144,7 +148,7 @@
   </div>
 </div>
 
-<div class="row mt-3"><img src="images/divider.png"></div>
+<div class="row mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
 <!-- Jassir -->
 
@@ -153,7 +157,7 @@
            <div class="card border-dark border rounded">
             <div class="row"> 
                 <div class="col-3 padding-left">
-                      <img src="images/portraits/jassir.png">  
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/portraits/jassir.png">  
               </div>
                 <div class="col-9">
                   <div class="row">
@@ -188,7 +192,7 @@
     <div class="row mt-4">
     <div class="row mt-5"></div>
       <div class="col-3">
-          <img src="images/icon-main-page/icon-2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon-main-page/icon-2.png">
          </div>
         <div class="col-12">
           <h2> Onboard users, investors and advisors as you grown</h2>
@@ -200,7 +204,7 @@
 
   <!-- fin § Onboard users -->
 
-  <div class="row mt-3"><img src="images/divider.png"></div>
+  <div class="row mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
   <!-- début § engage -->
 
@@ -208,7 +212,7 @@
       <div class="col-sm-12 col-md-6 mt-3">
           <div class="row">
               <div class="col-3">
-                <img src="images/icon-main-page/icon-3.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/icon-main-page/icon-3.png">
                   </div>
            </div>
         <div class="row">
@@ -242,19 +246,19 @@
                           <div class="col-9"><h5>3 applicants</h5></div>
                       </div>
                       <div class="row">
-                        <div class="col-3"><img src="images/portraits/jason.png"></div>
+                        <div class="col-3"><img src="<?php echo get_template_directory_uri(); ?>/images/portraits/jason.png"></div>
                         <div class="col-6"><p>Jason Kwon</p></div>
-                        <div class="col-3"><img src="images/star.png"><p>4.8</p></div>
+                        <div class="col-3"><img src="<?php echo get_template_directory_uri(); ?>/images/star.png"><p>4.8</p></div>
                     </div>
                     <div class="row">
-                        <div class="col-3"><img src="images/portraits/alex.png"></div>
+                        <div class="col-3"><img src="<?php echo get_template_directory_uri(); ?>/images/portraits/alex.png"></div>
                         <div class="col-6"><p>Alex Rose</p></div>
-                        <div class="col-3"><img src="images/star.png"><p>4.5</p></div>
+                        <div class="col-3"><img src="<?php echo get_template_directory_uri(); ?>/images/star.png"><p>4.5</p></div>
                     </div>
                     <div class="row">
-                          <div class="col-3"><img src="images/portraits/lizzie.png"></div>
+                          <div class="col-3"><img src="<?php echo get_template_directory_uri(); ?>/images/portraits/lizzie.png"></div>
                           <div class="col-6"><p>Lizzie Ulrich</p></div>
-                          <div class="col-3"><img src="images/star.png"><p>4.2</p></div>
+                          <div class="col-3"><img src="<?php echo get_template_directory_uri(); ?>/images/star.png"><p>4.2</p></div>
                       </div> 
 
                         </div>
@@ -264,7 +268,7 @@
                     <div class="col-md-4 col-sm-12 row border-card-green rounded mt-3 margin-left">
                             <div class="row mt-2">
                                     <div class="col-4"></div>
-                                    <div class="col-4"><img src="images/portraits/alex.png></div>
+                                    <div class="col-4"><img src="<?php echo get_template_directory_uri(); ?>/images/portraits/alex.png></div>
                                     <div class="col-4"></div>
                             </div>
                         
@@ -288,7 +292,7 @@
  
 
       <!-- Dernier § -->
-      <div class="row mt-5"><img src="images/divider.png"></div>
+      <div class="row mt-5"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
       <div class="col-12 md-12 sm-6 mt-5">
             <div class="row text-center"><h2>Help us improve Open Entreprise</h2></div>
@@ -296,7 +300,7 @@
       </div>
     <!-- fin Dernier § -->
     
-    <div class="row mt-3"><img src="images/divider.png"></div>
+    <div class="row mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
 <!-- Card bas de page -->
     <div class="col-md-12 col-sm-6 mt-5">
@@ -337,7 +341,7 @@
       <div class="col-4"></div>
     </div>
 
-    <div class="row mt-3"><img src="images/divider.png"></div>
+    <div class="row mt-3"><img src="<?php echo get_template_directory_uri(); ?>/images/divider.png"></div>
 
 
     <!-- § et image bottom -->
@@ -348,7 +352,7 @@
               <div class="row pt-3"><p>If you can’t wait to run a new or existing organization on Open Enterprise and are willing to explore and navigate the beta, we’d love to get you started.</p></div>
               <div class="row"> <button type="button" class="btn btn-success bouton">Request early access</button></div>
             </div>
-            <div class="col-sm-12 col-md-6 "><img src="images/illustration/pablo.png" id="image2"></div>
+            <div class="col-sm-12 col-md-6 "><img src="<?php echo get_template_directory_uri(); ?>/images/illustration/pablo.png" id="image2"></div>
         </div>
 
         <div class="row">

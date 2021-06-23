@@ -1,3 +1,13 @@
+/* Theme Name: Open-Entreprise
+Author: Williams Chazal
+Author URI: https://williamsc.promo-68.codeur.online/
+Description: Un theme developpé dans le cadre de la formation ACS.
+Version 0.1
+License: GNU General Public License v2 or later
+*/ 
+
+
+
 @font-face {
     font-family: 'Mermaid';
     src: url('Mermaid.ttf');
@@ -72,9 +82,9 @@ body{
 
 
 
-#logo{
+/* #logo{
     width: 240px;
-}
+} */
 
 #font-color{
     color: #71A894;
@@ -132,4 +142,9 @@ border-radius: 10px / 10px;
 
 .bi-star-fill{
     color:gold;
+}
+
+.custom-logo{
+    width: 150px !important;
+    height: 150px !important;
 }
